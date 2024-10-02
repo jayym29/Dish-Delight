@@ -1,0 +1,30 @@
+body {
+    background-color: #1c1c1c; /* Dark background */
+}
+
+.navbar {
+    border-bottom: 2px solid red; /* Red bottom border */
+}
+
+.footer {
+    border-top: 2px solid red; /* Red top border */
+}
+
+.container{
+
+    color: black;
+}
+
+.card {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+.btn-secondary {
+    background-color: #d44040;
+    border-color: #ec1212;
+}
