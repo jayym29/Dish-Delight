@@ -1,0 +1,52 @@
+Dish Delight
+Dish Delight is a recipe-sharing platform designed to allow users to create, share, and explore recipes from others. It was inspired by the need to preserve and share family recipes, especially those from my grandmother, who is a chef and owns her own restaurant. With this platform, users can easily access a collection of recipes and contribute their own for others to enjoy.
+
+Features
+User Authentication: Users can register and log in to create their own profiles.
+
+Create, Read, Update, Delete (CRUD) on Recipes: Users can add new recipes, edit existing ones, and remove recipes they’ve shared.
+
+Recipe Sharing: Users can explore recipes shared by others, making it easy to discover new dishes.
+
+Tailwind CSS: Responsive design and sleek UI using Tailwind for fast and easy styling.
+
+React Router: Seamless navigation between pages like the Home, Recipe, and Profile pages.
+
+Technologies Used
+Frontend: React, Tailwind CSS, JavaScript, HTML, CSS
+
+Backend: Flask, SQLAlchemy, Python
+
+Database: SQL (using SQLAlchemy ORM)
+
+Routing: React Router for client-side routing, Flask for server-side routing
+
+REST API: Built using Flask to handle all data operations
+
+Node.js: For managing the frontend development environment and dependencies
+
+PREREQUESITS
+Make sure you have the following installed on your machine:
+Node.js and npm: To manage the frontend.
+Python and pip: To run the Flask server and manage backend dependencies.
+SQLAlchemy: Installed via pip for database interactions.
+
+Installation:
+Clone the repository to your local machine
+Navigate to the project directory: cd dish delight
+install frontend dependencies: npm install
+install backend depdencies by running this command: `pip install -r requirements.txt` this will install the required libraries/packages.
+
+Starting the backend server
+Backend (Flask)
+Ensure you are in the backend directory: "cd backend"
+ Now create a python virtual environment. Run this command to do so: `python -m venv env` (or `python3 -m venv env` if on Mac)
+ now activate it. (venv\Scripts\activate on windows:) and (source venv/bin/activate on mac)
+ make sure dependencies and packes are installed: 'pip install -r requirements.txt`
+ Run the Flask server: flask run
+
+Starting the frontend server:
+install dependencies if you haven't already 'npm install'
+npm start
+
+Once both the Flask backend and React frontend servers are running, you can open your browser and interact with the Dish Delight project!
